@@ -35,6 +35,10 @@ class UsuarioBloc extends Bloc<UsuarioEvent, UsuarioState> {
            ]
          )
     );
+   } else if( event is BorrarUsuario ){
+
+      yield UsuarioState();
+
    }
 
 
