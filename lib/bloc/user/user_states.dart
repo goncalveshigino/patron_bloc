@@ -7,9 +7,9 @@ class UsuarioState {
   final bool existeUsuario;
   final Usuario usuario;
 
-  UsuarioState({ Usuario user })
-  :usuario = user ?? null, 
-  existeUsuario = ( user != null ) ? true : false;
+  UsuarioState({ Usuario usuario })
+  :usuario = usuario ?? null, 
+  existeUsuario = ( usuario != null ) ? true : false;
 
   
 
